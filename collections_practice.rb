@@ -58,6 +58,8 @@ def sum_array(array)
   return sum
 end 
 
+#array.inject{|sum, n| sum + n}
+
 def add_s(array) 
   new_array = []
   array.each do |word| 
